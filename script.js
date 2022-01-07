@@ -15,7 +15,7 @@ const handleOpen = cur => {
 
   items.forEach(item => {
     if (item === cur) {
-      item.classList.add('open');
+      item.classList.toggle('open');
     } else {
       item.classList.remove('open');
     }
